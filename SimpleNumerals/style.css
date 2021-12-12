@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap");
+
+/* This file is the style of index.html */
+
+body {
+  font-family: "Readex Pro", sans-serif;
+}
+
+:root {
+  --header-height: 3rem;
+}
+
+.navbar {
+  background-color: #00bfff;
+  padding: 1rem;
+}
+
+/* .btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #8064a2 !important;
+} */
+
+#hero-banner {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#hero-banner .image {
+  border-radius: 80px 0px 80px 80px;
+  overflow: hidden;
+}
+
+#banner1 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#banner1 .image {
+  border-radius: 80px 0px 80px 80px;
+  overflow: hidden;
+}
+
+#banner2 {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+#banner2 .image {
+  border-radius: 80px 0px 80px 80px;
+  overflow: hidden;
+}
+
+.btn-theme-2 {
+  box-shadow: 2px;
+  margin: 0;
+  font-weight: 500;
+  text-transform: capitalize;
+  background-color: #00bfff;
+  color: white;
+  /* padding: 8px 2px; */
+  border-radius: 30px 0px 30px 30px;
+  /* transition: 0.5s ease; */
+}
+
+.navbar-item {
+  color: white;
+}
+
+.homep1 {
+  width: 100%;
+  height: auto;
+}
+
+.homeImg {
+  width: 711px;
+  height: 400px;
+  object-fit: cover;
+}
+
+.homeImg2 {
+  object-position: 80px 80px; /* try 20px 10px */
+}
+
+.gradebtns {
+  text-align: center;
+  margin: 7px;
+  border-radius: 40px 0px 40px 40px;
+}
